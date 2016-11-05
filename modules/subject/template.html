@@ -1,0 +1,9 @@
+<!--<h2 class="movie_title">{{data.title}}</h2>-->
+<img class="main_img" ng-src="{{data.images.large}}">
+<a ng-repeat="actor in data.casts" ng-href="{{actor.alt}}">
+    <div class="actors">
+        <img ng-src="{{actor.avatars.medium}}">
+        <span class="movie_actor">{{actor.name}}</span>
+    </div>
+</a>
+<p class="movie_summary">{{data.summary}}</p>

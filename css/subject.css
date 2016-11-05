@@ -1,0 +1,39 @@
+.actors{
+    margin: 20px;
+    float: right;
+    width: 140px;
+}
+.actors>img{
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+    border-radius: 30px;
+}
+.actors>img:hover{
+    transform: scale(1.05);
+}
+.movie_summary{
+    margin-top: 20px;
+    font:400 18px/24px "microsoft yahei";
+}
+.movie_actor{
+    display: inline-block;
+    margin-top: 15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main_img{
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+    box-shadow:2px 2px 2px 2px gray ;
+}
+.main_img:hover{
+    transform:translateY(2px);
+    box-shadow:3px 3px 3px 3px gray ;
+}
